@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Client"/>
+    <Folder Include="Common"/>
+    <Folder Include="Server"/>
+  </ItemGroup>
+
 </Project>
