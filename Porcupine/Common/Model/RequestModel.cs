@@ -16,7 +16,7 @@ public class RequestModel
         Type = type;
     }
 
-    public static string GetSerilizedRequestObject(string data, string pointName, string type)
+    public static string GetSerializedRequestObject(string data, string pointName, string type)
     {
         return JsonConvert.SerializeObject(
             new RequestModel(

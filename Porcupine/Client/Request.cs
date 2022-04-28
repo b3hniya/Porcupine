@@ -24,7 +24,7 @@ public class Request
             using StreamWriter writer = new(client);
 
             string requestMessage
-                = RequestModel.GetSerilizedRequestObject(data, pointName, "Send");
+                = RequestModel.GetSerializedRequestObject(data, pointName, "Send");
 
             await PipeWriter.WriteMessageOnPipe(writer, requestMessage);
 
